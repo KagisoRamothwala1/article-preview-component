@@ -1,0 +1,46 @@
+body{
+   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(210, 46%, 95%);
+}
+
+image{
+  border-radius: 10px 0px 0px 10px;
+  height: 237px;
+  padding-top: 2px;
+  width: 365px;
+}
+
+.container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 428px;
+}
+
+.contentcontainer{
+  border-style: unset;
+  border-radius: 0px 10px 10px 0px;
+  height: 230px;
+  width: 444px;
+  background-color: white;
+}
+
+.Paragraph1ctn{
+
+}
+
+.Paragraph2ctn{
+
+}
+
+.Descriptionctn{
+
+}
+
+.Sharebtn{
+
+}
