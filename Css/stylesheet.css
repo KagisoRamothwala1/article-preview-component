@@ -1,3 +1,7 @@
+html{
+  height: 100%;
+}
+
 body{
    display: flex;
   flex-direction: column;
@@ -6,9 +10,9 @@ body{
   background-color: hsl(210, 46%, 95%);
 }
 
-image{
-  border-radius: 10px 0px 0px 10px;
-  height: 237px;
+img{
+  border-radius: 10px 0px 0px 10px;;
+  height: 308px;
   padding-top: 2px;
   width: 365px;
 }
@@ -18,29 +22,81 @@ image{
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  margin-top: 428px;
+  height: fit-content;
+  width: fit-content;
+  margin-inline: -67px;
+  margin-top: 300px;
 }
 
 .contentcontainer{
   border-style: unset;
   border-radius: 0px 10px 10px 0px;
-  height: 230px;
+  height: 311px;
   width: 444px;
   background-color: white;
+  margin-inline: -67px;
+
 }
 
 .Paragraph1ctn{
-
+  font-size: x-large;
+  font-weight: bold;
+  color: hsl(217, 19%, 35%);
+  padding-top: 35px;
+  padding-bottom: 21px;
+  margin-inline: 50px;
 }
 
 .Paragraph2ctn{
+  padding-bottom: 25px;
+  margin-inline: 50px;
+  font-size: medium;
+  color: hsl(220, 11%, 63%);
 
 }
 
+.profilectn{
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 28px;
+  margin-inline: 50px;
+  
+}
+
+.infoCtn{
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 28px;
+  padding-left: 25px;
+}
+
+.avatar-michelle-ctn{
+  height: 37px;
+  width: 51px;
+  border-radius: 30px;
+}
+
+.dateCtn{
+  color: hsl(220, 11%, 63%);
+}
+
 .Descriptionctn{
+  color: hsl(217, 19%, 35%);
+  font-weight: bold;
 
 }
 
 .Sharebtn{
+  margin-left: 90px;
+  border-radius: 30px;
+  height: 40px;
+  width: 40px;
+  background-color: hsl(210, 46%, 95%);
+}
 
+.share-icon{
+ height: 10px;
+  width: 15px;
+  margin-inline: 12px;
+  padding-top: 14px;
 }
