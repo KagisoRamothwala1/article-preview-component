@@ -86,12 +86,48 @@ img{
 
 }
 
-.Sharebtn{
+.sharebutton{
   margin-left: 90px;
   border-radius: 30px;
   height: 40px;
   width: 40px;
+  cursor: pointer;
   background-color: hsl(210, 46%, 95%);
+}
+
+.sharebutton.active {
+    background-color: #48556a;
+}
+
+.sharebutton.active .socialLinkCtn {
+    background-color: #9eafc2;
+}
+
+.sharebutton.active .socialLinkCtn {
+    background-color: #9eafc2;
+}
+
+.sharebutton.active .share-icon {
+    filter: brightness(0) invert(1);
+}
+
+.share-container {
+    background-color: white;
+}
+
+/* Open state */
+.share-container.active {
+    background-color: #48556a;
+}
+
+.share-container .share-default a,
+.share-container .share-default span {
+    display: none;
+}
+
+.share-container.active .share-default a,
+.share-container.active .share-default span {
+    display: inline-flex;
 }
 
 .share-icon{
@@ -99,4 +135,33 @@ img{
   width: 15px;
   margin-inline: 12px;
   padding-top: 14px;
+}
+
+.socialLinkCtn{
+  display: flex;
+  flex-direction: row;
+  background-color: hsl(219, 19%, 35%);
+}
+
+
+
+.facebook{
+  height: 50px;
+  width: 50px;
+
+}
+
+.pinterest{
+  height: 50px;
+  width: 50px;
+}
+
+.twitter{
+  height: 50px;
+  width: 50px;
+}
+
+.Share2{
+  height: 50px;
+  width: 50px;
 }
