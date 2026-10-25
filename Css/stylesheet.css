@@ -95,40 +95,24 @@ img{
   background-color: hsl(210, 46%, 95%);
 }
 
-.sharebutton.active {
-    background-color: #48556a;
+.sharebuttonbackground{
+  background-color: hsl(217, 19%, 35%);
 }
 
-.sharebutton.active .socialLinkCtn {
-    background-color: #9eafc2;
+.socialLinkCtn-deactive{
+  display: flex;
+  position: absolute;
+  top: 482px;
+  left: 1079px;
+  z-index: 1;
+  flex-direction: row;
+  border-radius: 20px;
+  column-gap: 10px;
+  padding-left: 19px;
+  background-color: hsl(217, 19%, 35%);
+    
 }
 
-.sharebutton.active .socialLinkCtn {
-    background-color: #9eafc2;
-}
-
-.sharebutton.active .share-icon {
-    filter: brightness(0) invert(1);
-}
-
-.share-container {
-    background-color: white;
-}
-
-/* Open state */
-.share-container.active {
-    background-color: #48556a;
-}
-
-.share-container .share-default a,
-.share-container .share-default span {
-    display: none;
-}
-
-.share-container.active .share-default a,
-.share-container.active .share-default span {
-    display: inline-flex;
-}
 
 .share-icon{
  height: 10px;
@@ -138,9 +122,8 @@ img{
 }
 
 .socialLinkCtn{
-  display: flex;
-  flex-direction: row;
-  background-color: hsl(219, 19%, 35%);
+  display: none;
+  background-color: hsl(217, 19%, 35%);
 }
 
 
@@ -164,4 +147,8 @@ img{
 .Share2{
   height: 50px;
   width: 50px;
+}
+
+@media (max-width: 1440px) {
+  
 }
