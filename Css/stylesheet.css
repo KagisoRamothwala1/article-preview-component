@@ -99,11 +99,23 @@ img{
   background-color: hsl(217, 19%, 35%);
 }
 
+.socialLinkCtn {
+  display: flex;
+  background-color: hsl(217, 19%, 35%);
+  position: absolute;
+  top: 565px;
+  left: 34px;
+  z-index: 1;
+  width: 347px;
+  border-radius: 0px 0px 10px 10px;
+  height: 79px;
+}
+
 .socialLinkCtn-deactive{
   display: flex;
   position: absolute;
-  top: 494px;
-  left: 1118px;
+  top: 472px;
+  left: 1144px;
   z-index: 1;
   flex-direction: row;
   border-radius: 20px;
@@ -111,6 +123,8 @@ img{
   background-color: hsl(217, 19%, 35%);
   padding-right: 29px;
   padding-left: 29px;
+  height: 51px;
+  padding-top: 14px;
 }
 
 
@@ -167,5 +181,83 @@ img{
 }
 
 @media (max-width: 1440px) {
-  
+  .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: fit-content;
+  width: fit-content;
+  margin-inline: 0px;
+  margin-top: 60px;
+}
+
+.contentcontainer {
+  border-style: unset;
+  border-radius: 0px 0px 10px 10px;
+  height: 301px;
+  width: 347px;
+  background-color: white;
+  margin-inline: -67px;
+}
+
+
+.Paragraph1ctn {
+  font-size: larger;
+  font-weight: inherit;
+  color: hsl(217, 19%, 35%);
+  padding-top: 35px;
+  padding-bottom: 21px;
+  margin-inline: 41px;
+}
+
+.Paragraph2ctn {
+  padding-bottom: 38px;
+  margin-inline: 43px;
+  color: hsl(220, 11%, 63%);
+  font-size: 15px;
+}
+
+.profilectn {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 28px;
+  margin-inline: 41px;
+  font-size: 14px;
+}
+
+img {
+  border-radius: 10px 10px 0px 0px;
+  height: 231px;
+  padding-top: 0px;
+  width: 346px;
+}
+
+.Descriptionctn {
+  color: hsl(217, 19%, 35%);
+  font-weight: bold;
+}
+
+.share-icon {
+  height: 9px;
+  width: 13px;
+  margin-inline: 7px;
+}
+
+.sharebutton {
+  margin-left: 49px;
+  border-radius: 30px;
+  height: 32px;
+  width: 34px;
+  cursor: pointer;
+  background-color: hsl(210, 46%, 95%);
+  border-style: unset;
+}
+
+.attribution {
+  padding-left: 8px;
+  margin-top: 12px;
+  font-size: 14px;
+}
+
 }
